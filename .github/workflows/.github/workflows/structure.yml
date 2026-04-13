@@ -1,0 +1,24 @@
+name: Generate Folder Structure
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install tree
+        run: sudo apt-get install tree
+
+      - name: Generate structure
+        run: tree -I ".git|__pycache__" > structure.txt
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: folder-structure
+          path: structure.txt
