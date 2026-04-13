@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+env/
+venv/
+
+# Model files
+*.h5
+*.hdf5
+*.ckpt
+
+# Dataset
+data/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
