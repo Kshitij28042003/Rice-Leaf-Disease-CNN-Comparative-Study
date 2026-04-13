@@ -33,6 +33,7 @@ Submitted to:
 
 Status: Under Review  
 Role: Contributing Author  
+![Submission Proof](docs/submission_proof.png)
 
 ## 📁 Project Structure
 (Explain folders)
@@ -51,6 +52,26 @@ Role: Contributing Author
 - Python
 - TensorFlow / Keras
 - NumPy, Matplotlib
+
+## ▶️ How to Run
+
+### 1. Clone the repository
+git clone https://github.com/Kshitij28042003/Rice-Leaf-Disease-CNN-Comparative-Study.git
+
+### 2. Go into the project folder
+cd Rice-Leaf-Disease-CNN-Comparative-Study
+
+### 3. Install dependencies
+pip install -r requirements.txt
+
+### 4. Run all the sourco codes from src
+
+## 🚀 Highlights
+
+- Compared 10 CNN architectures (ResNet, VGG, DenseNet, EfficientNet)
+- Designed 3 pipelines including GAN-based augmentation (WGAN-GP)
+- Achieved 92% test accuracy using ResNet101
+- Identified generalization gap (99–100% validation vs 79–92% test accuracy)
 
 ## 👤 Author
 Kshitij Ayush
