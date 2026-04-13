@@ -36,6 +36,7 @@ Role: Contributing Author
 ![Submission Proof](docs/submission_proof.png)
 
 ## 📁 Project Structure
+'''bash
 .
 ├── README.md
 ├── data
@@ -128,7 +129,7 @@ Role: Contributing Author
 │       ├── test.py
 │       ├── test_SKF.py
 │       └── test_path.py
-└── structure.txt
+└── structure.txt '''
 
 11 directories, 82 files
 
