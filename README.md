@@ -37,6 +37,16 @@ Role: Contributing Author
 ## 📁 Project Structure
 (Explain folders)
 
+## 📊 Results
+
+### Model Performance Comparison
+![Comparison](results/ComparisonOfModels.png)
+
+### Pipeline Comparison
+![Pipeline 1](results/Pipeline_1.png)
+![Pipeline_2](results/Pipeline_2.png)
+![Pipeline_3](results/Pipeline_3.png)
+
 ## 🛠 Tech Stack
 - Python
 - TensorFlow / Keras
